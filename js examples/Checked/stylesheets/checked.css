@@ -1,0 +1,21 @@
+body
+{
+    background-color: #A8A8A8 
+}
+
+.text
+{
+    font-family: helvetica;
+    font-size: 45px;
+    text-align: center;
+    color: #CC0033;
+}
+
+#checkbox-div { /* This centers the checkbox */
+width: 0px;
+margin: 0px auto 0px auto}
+
+input[type='checkbox'] {
+    width:20px;
+    height:20px;
+}

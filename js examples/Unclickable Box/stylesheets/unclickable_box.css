@@ -1,0 +1,23 @@
+body
+{
+background-color: #D0D0D0
+}
+
+.text
+{
+  text-align: center;
+  font-family: arial;
+  color: #CC3333;
+}
+.box
+{
+  width:100px;
+  height:30px;
+  background-color: #00FFFF;
+  position:absolute;
+  font-size: 20px;
+  border: 2px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 5px #888888;
+  line-height: 30px;
+}

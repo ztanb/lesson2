@@ -1,0 +1,26 @@
+<DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheets/checked.css">
+
+        <script type="text/javascript">
+            function update() { // to be called when the box is clicked
+                if (document.getElementById('box').checked) // if the box is checked, say it is checked
+                    document.getElementById('title').innerHTML='The box is checked.';
+                else //else...
+                    document.getElementById('title').innerHTML='The box is not checked.';
+            }   
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <h1 id="title" class="text"> The box is not checked. </h1>
+   
+        <div id="checkbox-div"> <input type="checkbox" onclick="update();" id="box"></div>
+
+    </body>
+</html
