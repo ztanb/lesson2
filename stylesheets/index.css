@@ -4,3 +4,13 @@ body{
 li.red-text{
   color: #AA3939;
 }
+#hello-button-row{
+    padding-top: 100px;
+}
+
+#hello-button{
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
